@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Start \"skeleton.cmd\"",
+            "label": "Start local \"skeleton.cmd\"",
             "type": "shell",
             "command": ". ./skeleton.cmd",
             "problemMatcher": [],
@@ -12,6 +12,15 @@
                 "kind": "build",
                 "isDefault": true
             },
+			"presentation": {
+				"clear": true // Controls whether the terminal is cleared before this task is run.
+			}
+        },
+        {
+            "label": "Start submoduled \"core.cmd\"",
+            "type": "shell",
+            "command": ". ./git-submodules-train__core/core.cmd",
+            "problemMatcher": [],
 			"presentation": {
 				"clear": true // Controls whether the terminal is cleared before this task is run.
 			}
