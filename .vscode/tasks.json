@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Start \"core.cmd\"",
+            "label": "Start \"skeleton.cmd\"",
             "type": "shell",
-            "command": ". ./core.cmd",
+            "command": ". ./skeleton.cmd",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

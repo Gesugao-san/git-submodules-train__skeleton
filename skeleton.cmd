@@ -1,0 +1,4 @@
+
+@ECHO OFF
+ECHO HELLO WORLD (skeleton)!
+@REM PAUSE

@@ -1,4 +1,0 @@
-
-@ECHO OFF
-ECHO HELLO WORLD (core)!
-@REM PAUSE
