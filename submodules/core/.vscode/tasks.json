@@ -4,23 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Start local \"skeleton.cmd\"",
+            "label": "Start \"core.cmd\"",
             "type": "shell",
-            "command": ". ./skeleton.cmd",
+            "command": ". ./core.cmd",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-			"presentation": {
-				"clear": true // Controls whether the terminal is cleared before this task is run.
-			}
-        },
-        {
-            "label": "Start submoduled \"core.cmd\"",
-            "type": "shell",
-            "command": ". ./submodules/core/core.cmd",
-            "problemMatcher": [],
 			"presentation": {
 				"clear": true // Controls whether the terminal is cleared before this task is run.
 			}
