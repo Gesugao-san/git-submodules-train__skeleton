@@ -1,4 +1,3 @@
-
-[submodule "submodules/git-submodules-train__core"]
-	path = submodules/core/git-submodules-train__core
+[submodule "core"]
+	path = submodules/core
 	url = https://github.com/Gesugao-san/git-submodules-train__core
