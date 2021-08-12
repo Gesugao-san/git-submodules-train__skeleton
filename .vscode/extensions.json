@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-vscode.powershell",
+        "shan.code-settings-sync",
+        "oderwat.indent-rainbow",
+        "eamodio.gitlens",
+        "codezombiech.gitignore",
+        "github.vscode-pull-request-github",
+        "felipecaputo.git-project-manager",
+        "donjayamanne.githistory",
+        "redvanworkshop.explorer-exclude-vscode-extension",
+        "usernamehw.errorlens",
+        "editorconfig.editorconfig",
+        "piotrpalarz.vscode-gitignore-generator"
+    ]
+}
