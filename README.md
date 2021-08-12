@@ -22,7 +22,11 @@ Clear-Content "./.gitmodules" # Remove .gitmodules contents
 #git mv "submodules/git-submodules-train__core" "submodules/core"
 git submodule add --name "core" "https://github.com/Gesugao-san/git-submodules-train__core" "submodules/core" # Add submodule
 git ls-files --stage "submodules/core"
-git submodule sync
+git submodule sync "submodules/core"
+git submodule status "submodules/core"
+git submodule update "submodules/core"
+git submodule update --remote "submodules/core"
+git submodule update --remote --rebase "submodules/core"
 
 ```
 ---
